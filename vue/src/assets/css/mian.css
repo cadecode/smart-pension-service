@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 28px;
+    border-radius: 0 !important;
+    background-color: #c2c2c2 !important;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+}
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
